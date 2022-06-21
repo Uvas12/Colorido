@@ -1,0 +1,16 @@
+{
+    "name": "Colorido",
+    "author": "La pluma azul",
+    "url": "https://github.com/Uvas12/Colorido",
+    "type": "parserhook",
+    "description": "Hace que el texto parezca más divertido.",
+    "version": "1.0",
+    "Hooks": {
+      "ParserFirstCallInit": "Colorido::onParserFirstCallInit"
+    },
+    "AutoloadClasses": {
+      "Colorido": "Colorido_magic.php"
+    },
+    "manifest_version": 2
+    
+}
